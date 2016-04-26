@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>wjxiz&#39;blog</title>
-    <link>http://wjxiz.com/</link>
-    <description>Recent content on wjxiz&#39;blog</description>
+    <title>面试 on wjxiz&#39;blog</title>
+    <link>http://wjxiz.com/tags/%E9%9D%A2%E8%AF%95/</link>
+    <description>Recent content in 面试 on wjxiz&#39;blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; 2016. no rights reserved by anyone. Just look, learn and use :)</copyright>
     <lastBuildDate>Tue, 26 Apr 2016 12:04:14 +0200</lastBuildDate>
-    <atom:link href="http://wjxiz.com/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://wjxiz.com/tags/%E9%9D%A2%E8%AF%95/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>网易游戏设计师面试</title>
@@ -96,77 +96,6 @@
 &lt;h2 id=&#34;后记:051c24c930b3ac277c3a9f3815ceb6a3&#34;&gt;后记&lt;/h2&gt;
 
 &lt;p&gt;网易的游戏设计部 好像在杭州，并不是第一目标上海。所以这次面试经历还是挺宝贵的，毕竟网易是国内排名前3的游戏公司。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>contact</title>
-      <link>http://wjxiz.com/contact/</link>
-      <pubDate>Tue, 26 Apr 2016 00:49:14 +0200</pubDate>
-      
-      <guid>http://wjxiz.com/contact/</guid>
-      <description>&lt;p&gt;邮箱：alain.xuyz@gmail.com&lt;/p&gt;
-
-&lt;p&gt;qq:386554985&lt;/p&gt;
-
-&lt;p&gt;微信：xyztakeflower&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>About Me</title>
-      <link>http://wjxiz.com/about/</link>
-      <pubDate>Tue, 26 Apr 2016 00:48:26 +0200</pubDate>
-      
-      <guid>http://wjxiz.com/about/</guid>
-      <description>
-
-&lt;h3 id=&#34;about-wjxiz:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;About wjxiz&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;2011-2014 @ 西安电子科技大学 网络工程&lt;/li&gt;
-&lt;li&gt;2014-现在  @ 巴黎十一大-综合理工学院 Informatique&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;wjxiz是我小学玩梦幻西游时候用的账户名，一直沿用到现在，很多游戏的账户都是这个。&lt;/p&gt;
-
-&lt;p&gt;没错，我差不多可以算一个网瘾青年吧。&lt;/p&gt;
-
-&lt;p&gt;现在在学编程，以后应该会成为一个小程序员吧。&lt;/p&gt;
-
-&lt;h3 id=&#34;like:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;like&lt;/h3&gt;
-
-&lt;p&gt;Apple Dota2 物理 烽火戏诸侯&lt;/p&gt;
-
-&lt;h3 id=&#34;dislike:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;dislike&lt;/h3&gt;
-
-&lt;p&gt;bad emotions&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>博客算是有雏形了</title>
-      <link>http://wjxiz.com/post/first/</link>
-      <pubDate>Tue, 26 Apr 2016 00:40:48 +0200</pubDate>
-      
-      <guid>http://wjxiz.com/post/first/</guid>
-      <description>
-
-&lt;h3 id=&#34;真折腾:e8fb9c67eba912c72729806db31eaa1b&#34;&gt;真折腾&lt;/h3&gt;
-
-&lt;p&gt;弄了差不多两天，才把博客给初步搭建起来。期间学习了git的使用方法、静态网页的概念、以及集中静态网页生成器的使用.一开始是准备用Jelly, 然后发现pelican这个东西是法国人用Python做的，所以就尝试了一下，但是发现没有足够的前段知识，很难用好。最后把目光转向了Hugo，才弄成了现在这个样子。&lt;/p&gt;
-
-&lt;h3 id=&#34;好难玩:e8fb9c67eba912c72729806db31eaa1b&#34;&gt;好难玩&lt;/h3&gt;
-
-&lt;p&gt;投了差不多有100多封简历，面试三个，好像全都悲剧了。。。突然感觉自己好菜，需要学习的东西太多了。8个小时之后还有一个网易游戏设计师的电话面，希望也不大。基本没做过什么游戏，虽然自己玩游戏很多，但是属于精而不博，感觉和那些专门学习制作游戏的比，眼光和思维广度深度都不够。但是还是试试吧。&lt;/p&gt;
-
-&lt;h3 id=&#34;头很硬:e8fb9c67eba912c72729806db31eaa1b&#34;&gt;头很硬&lt;/h3&gt;
-
-&lt;p&gt;Wings战队昨天拿下了马尼拉ESLONE的冠军，想想自己已经24了，电子竞技梦肯定是越来越没盼头。需要转换转换思想了，把自己当成一个有担当的青年，去追寻一些现实的东西了。要更加努力学习工作才行！&lt;/p&gt;
-
-&lt;h3 id=&#34;睡觉去:e8fb9c67eba912c72729806db31eaa1b&#34;&gt;睡觉去&lt;/h3&gt;
-
-&lt;p&gt;悄悄告诉你，我高考语文不及格。嘘！&lt;/p&gt;
 </description>
     </item>
     

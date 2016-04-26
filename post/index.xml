@@ -6,8 +6,98 @@
     <description>Recent content in Posts on wjxiz&#39;blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; 2016. no rights reserved by anyone. Just look, learn and use :)</copyright>
-    <lastBuildDate>Tue, 26 Apr 2016 00:40:48 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 26 Apr 2016 12:04:14 +0200</lastBuildDate>
     <atom:link href="http://wjxiz.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>网易游戏设计师面试</title>
+      <link>http://wjxiz.com/post/netease-interview/</link>
+      <pubDate>Tue, 26 Apr 2016 12:04:14 +0200</pubDate>
+      
+      <guid>http://wjxiz.com/post/netease-interview/</guid>
+      <description>
+
+&lt;h2 id=&#34;投简历:051c24c930b3ac277c3a9f3815ceb6a3&#34;&gt;投简历&lt;/h2&gt;
+
+&lt;p&gt;最开始是在实习僧网站上看到网易的招聘信息，说是游戏设计师岗位还在收简历。抱着试一试的态度就投了，也没准备。网易的招聘系统还是比较酷炫的，有非常重的游戏氛围，简历需要填的东西还挺多，包括你的游戏经历、最擅长的游戏等等。上周周四还是周五，记不清了，当时人在车站呢，收到了杭州的电话，说是下周二北京时间9：30电话面试。&lt;/p&gt;
+
+&lt;h2 id=&#34;电话来了:051c24c930b3ac277c3a9f3815ceb6a3&#34;&gt;电话来了&lt;/h2&gt;
+
+&lt;p&gt;突然失眠，六点多才睡着吧。早上电话来的时候，还迷迷糊糊躺在床上呢。面试官声音很年轻，感觉蛮舒服。一开始说我这边声音有点小，于是乎找了个耳机，开始正式电话面试了。&lt;/p&gt;
+
+&lt;p&gt;首先是自我介绍，我就说了我现在在哪，哪里毕业的，学的什么，做过什么等等。然后面试官让我说一下自己的游戏经历，我就差不多按照当时简历里写的内容复述了一遍。因为我里面提到打Dota 代表校队拿了西安第二，所以面试官就说 我们来谈谈dota。&lt;/p&gt;
+
+&lt;p&gt;首先让我说我最擅长的英雄，我就说卡尔、蓝猫和小娜迦。&lt;/p&gt;
+
+&lt;p&gt;面试官：小娜迦是哪一种小娜迦？&lt;/p&gt;
+
+&lt;p&gt;我： 我所有位置的都打过。但是胜率最高的应该是辉耀小娜迦。&lt;/p&gt;
+
+&lt;p&gt;面试官：那好，这个80分钟膀胱的我们就暂且不说啊，说一下你觉得卡尔这个英雄优势在哪里吧。&lt;/p&gt;
+
+&lt;p&gt;我：这个英雄最关键的可以打出高于经济的输出吧。&lt;/p&gt;
+
+&lt;p&gt;面试官：那这个英雄和火女有什么区别？&lt;/p&gt;
+
+&lt;p&gt;我： 这两个英雄其实很像，都是高移速，高输出。火女的强势期要比卡而来的早，她在到达关键等级后 就会有一个非常大的输出提升，而卡尔似乎是没有质变这样的一个概念的。卡尔的高爆发依赖于高等级和良好的装备。&lt;/p&gt;
+
+&lt;p&gt;面试官： 那如果让你设计一个二号位的英雄，就从魔兽里面选一个出来。你怎么设计？ 给你一分钟思考时间&lt;/p&gt;
+
+&lt;p&gt;（1 min later）&lt;/p&gt;
+
+&lt;p&gt;我：科多兽。 四个技能 。。。巴拉巴拉。。。&lt;/p&gt;
+
+&lt;p&gt;面试官：你给出的似乎更偏向于一个三号位的英雄啊，干扰对面补刀，又是力量，而且给我的感觉有点弱。&lt;/p&gt;
+
+&lt;p&gt;我： 。。。额。。。好像真的是这样，新英雄出来都是比较Imba的。。。&lt;/p&gt;
+
+&lt;p&gt;面试官： 还有什么问题吗？&lt;/p&gt;
+
+&lt;p&gt;我：问了一点问题。。。但是感觉问的并不好。。。&lt;/p&gt;
+
+&lt;h2 id=&#34;反思:051c24c930b3ac277c3a9f3815ceb6a3&#34;&gt;反思&lt;/h2&gt;
+
+&lt;p&gt;面试结束之后细想，完全可以回答的上一个台阶的。因为没经验，所以思路太狭隘了。&lt;/p&gt;
+
+&lt;p&gt;比如在设计英雄的时候，应该 考虑两个方向：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;英雄在游戏中的作用，英雄的游戏定位&lt;/li&gt;
+&lt;li&gt;玩家的体验&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;我面试的时候 只想着怎么去凑4个技能了。所以思路还是狭隘了很多。作为新英雄，首先得有人玩对吧。 怎么才能有人玩呢？ 两点：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;IMBA&lt;/li&gt;
+&lt;li&gt;操作有趣&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;能赢，杀得爽，当然是玩家的基本需求，所以这个很重要，新英雄需要足够的吸引人。 其次你会设计出第二个米波吗？显然米波这种操作级别的英雄，就目前的玩法趋势来说，是不应该再出现的。&lt;/p&gt;
+
+&lt;p&gt;记得当时面试官跟我说，我的英雄推进不厉害，没有控制，又是力量型。不适合做中单。 其实当时我没考虑好，考虑好是可以进行反驳的。 我的科多有一个AOE，一个debuff，一个buff 和一个大。（唉，我突然又想到，你的新英雄 需要考虑到目前的热门英雄是否克制） 控制的意义在于，你控制住他，可以杀了他或者救人。否则你的控其实意义不大。不过现在看来我这个英雄确实很不行啊。 按照面试官的思路，设计2号位英雄需要:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;AOE或者高爆发&lt;/li&gt;
+&lt;li&gt;控制技能&lt;/li&gt;
+&lt;li&gt;推进能力&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;不过我觉得目前的二号位还需要一个&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;后期能力&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;就经济来看，游戏中二号位的经济比一号位好是很常见的。所以资源分配上，二号位还是需要很高的权重倾斜的。&lt;/p&gt;
+
+&lt;p&gt;总的来说，就游戏设计这一块，我还是太弱了。基本没有游戏设计的概念，平时只知道玩，思考的还是少了。&lt;/p&gt;
+
+&lt;h2 id=&#34;后记:051c24c930b3ac277c3a9f3815ceb6a3&#34;&gt;后记&lt;/h2&gt;
+
+&lt;p&gt;网易的游戏设计部 好像在杭州，并不是第一目标上海。所以这次面试经历还是挺宝贵的，毕竟网易是国内排名前3的游戏公司。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>博客算是有雏形了</title>
