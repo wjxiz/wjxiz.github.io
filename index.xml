@@ -17,7 +17,7 @@
       <guid>http://wjxiz.com/post/git-use-introduce/</guid>
       <description>
 
-&lt;p&gt;##Git是什么？有什么用？&lt;/p&gt;
+&lt;h2 id=&#34;git是什么-有什么用:38b7fe8ba42feb5431437908455a3b68&#34;&gt;Git是什么？有什么用？&lt;/h2&gt;
 
 &lt;p&gt;Git的介绍网上一大堆，我的理解是，可以给一个工程创建多个副本，各副本之间可以独立开发，也可以相互影响。举一个简单地例子：&lt;/p&gt;
 
@@ -27,7 +27,9 @@
 
 &lt;p&gt;对于我这个把github当成学习记录的人来说，git也没那么大作用了。也就是上传上传代码，督促自己学习。忘了说了Git和Github是两个不同概念，github是根据Git来做的一个大型网络代码托管库，Git是实现代码托管、版本管理的技术核心。&lt;/p&gt;
 
-&lt;p&gt;##GitHub怎么用？&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;github怎么用:38b7fe8ba42feb5431437908455a3b68&#34;&gt;GitHub怎么用？&lt;/h2&gt;
 
 &lt;p&gt;主要有一下几个Step：&lt;/p&gt;
 
@@ -39,15 +41,23 @@
 &lt;li&gt;上传/下载你的仓库（代码）&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;###申请GitHub账户&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;申请github账户:38b7fe8ba42feb5431437908455a3b68&#34;&gt;申请GitHub账户&lt;/h3&gt;
 
 &lt;p&gt;就无需多说了，google github 然后上去注册就行&lt;/p&gt;
 
-&lt;p&gt;###安装命令行工具Git
-因为我是MacOS 所以本身自带。Linux应该也有，没有的话apt-get一下；Windows的话可以去下载一个GitBash 或者前两天看到一个什么 ’乌龟命令行 tortoise shell‘ 大概是这个名字，没有太留意。总之这一步也不会有什么问题。&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
 
-&lt;p&gt;###配置本机的公私钥对
-这一步主要是利用当代流行的非对称加密技术来对你和GitHub的通信进行加密，确保通信安全。
+&lt;h3 id=&#34;安装命令行工具git:38b7fe8ba42feb5431437908455a3b68&#34;&gt;安装命令行工具Git&lt;/h3&gt;
+
+&lt;p&gt;因为我是MacOS 所以本身自带。Linux应该也有，没有的话apt-get一下；Windows的话可以去下载一个GitBash 或者前两天看到一个什么 ’乌龟命令行 tortoise shell‘ 大概是这个名字，没有太留意。总之这一步也不会有什么问题。&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;配置本机的公私钥对:38b7fe8ba42feb5431437908455a3b68&#34;&gt;配置本机的公私钥对&lt;/h3&gt;
+
+&lt;p&gt;这一步主要是利用当代流行的非对称加密技术来对你和GitHub的通信进行加密，确保通信安全。
 首先检查自己的SSH key&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;$ cd ~/.ssh --表示进入名字加&#39;.ssh&#39;的文件夹。如果你之前生成过ssh密钥，那么这个文件夹就应该是存在的
@@ -74,8 +84,11 @@ Enter same passphrase again:&amp;lt;再次输入加密串&amp;gt;
 
 &lt;p&gt;&lt;img src=&#34;http://cnfeat.qiniudn.com/11.png&#34; alt=&#34;Mou icon&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;###上传刚才生成的public key
-(对于非对称加密技术 以后会单独写一写，毕竟自己是西电毕业的，这学期的安全课上老师课件里竟然有很多西电的引用)&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;上传刚才生成的public-key:38b7fe8ba42feb5431437908455a3b68&#34;&gt;上传刚才生成的public key&lt;/h3&gt;
+
+&lt;p&gt;(对于非对称加密技术 以后会单独写一写，毕竟自己是西电毕业的，这学期的安全课上老师课件里竟然有很多西电的引用)&lt;/p&gt;
 
 &lt;p&gt;登录github, 右上角头像，然后找到settings，进去之后找到 &lt;code&gt;SSH and GPG keys&lt;/code&gt; 然后 点选 &lt;code&gt;New SSH Key&lt;/code&gt; Title栏随便写名字， Key栏里输入你刚才生成的.pub 文件里面的内容，也就是很长的一串&amp;rsquo;乱码’ （图片来自于 &lt;a href=&#34;http://www.jianshu.com/p/05289a4bc8b2）&#34;&gt;如何搭建一个独立博客——简明Github Pages与Hexo教程&lt;/a&gt;）
 &lt;img src=&#34;http://cnfeat.qiniudn.com/s12.jpg&#34; alt=&#34;Mou icon&#34; /&gt;&lt;/p&gt;
@@ -92,6 +105,8 @@ Enter same passphrase again:&amp;lt;再次输入加密串&amp;gt;
 &lt;pre&gt;&lt;code&gt;$ git config --global user.name &amp;quot;cnfeat&amp;quot;//用户名
 $ git config --global user.email  &amp;quot;cnfeat@gmail.com&amp;quot;//填写自己的邮箱
 &lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;上传-下载代码:38b7fe8ba42feb5431437908455a3b68&#34;&gt;上传/下载代码&lt;/h3&gt;
 
@@ -121,6 +136,8 @@ git push origin master --ok ，上传！
 
 &lt;p&gt;如何删除github上的一些文件呢？ 总体思路是 ：先pull 下来，再 rm 掉不想要的部分，再 add ，再 commit ，最后push。 思路是这么个思路，具体可能有一些小问题，到时候google一下就行了。&lt;/p&gt;
 
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
 &lt;h2 id=&#34;后记:38b7fe8ba42feb5431437908455a3b68&#34;&gt;后记&lt;/h2&gt;
 
 &lt;p&gt;其实Git最强的地方 我在这里都没有写到，那就是版本管理， 其实一个代码库可以有很多个分支branch 注意 上面push 命令&lt;/p&gt;
@@ -138,6 +155,8 @@ git push origin master --ok ，上传！
 &lt;p&gt;想一想，以后你可以建立一个初始原型项目，然后再里面加各种独立的需求，然后还可以不互相影响，便于测试。&lt;/p&gt;
 
 &lt;p&gt;ok 12点了，我去喝喝水 睡觉了。。。&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
 </description>
     </item>
     
