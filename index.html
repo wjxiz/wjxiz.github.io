@@ -211,7 +211,16 @@
   </header>
 
   <p>
-  ##Git是什么？有什么用？ Git的介绍网上一大堆，我的理解是，可以给一个工程创建多个副本，各副本之间可以独立开发，也可以相互影响。举一个简单地例子： 我现在有一个项目，需要两个函数，正好有两个开发人员。两个开发人员可以在各自的电脑上下载这个初始项目，然后写各自的函数。写完之后上传，合并之后，就得到了拥有两个函数的项目。 对于我这个把github当成学习记录的人来说，git也没那么大作用了。也就是上传上传代码，督促自己学习。忘了说了Git和Github是两个不同概念，github是根据Git来做的一个大型网络代码托管库，Git是实现代码托管、版本管理的技术核心。 ##GitHub怎么用？ 主要有一下几个Step： 申请Github账户 安装命令行Git工具 配置本机SSH 公私钥对(private key &amp;&amp; public key ) 向GitHub上传你的 public key 上传/下载你的仓库（代码） ###申请GitHub账户 就无需多说了，google github 然后上去注册就行 ###安装命令行工具Git 因为我是MacOS 所以本身自带。Linux应该也有，没有的话apt-get一下；Windows的话可以去下载一个GitBash 或者前两天看到一个什么 ’乌龟命令行 tortoise shell‘ 大概是这个名字，没有太留意。总之这一步也不会有什么问题。 ###配置本机的公私钥对 这一步主要是利用当代流行的非对称加密技术来对你和GitHub的通信进行加密，确保通信安全。 首先检查自己的SSH key $ cd ~/.ssh --表示进入名字加'.ssh'的文件夹。如果你之前生成过ssh密钥，那么这个文件夹就应该是存在的 提示No such file or directory就说明你目前还没有生成过密钥。 那么就生成一下吧： $ ssh-keygen -t rsa -C &quot;邮件地址@youremail.com&quot; Generating public/private rsa key pair. Enter file in which to save the key (/Users/your_user_directory/.ssh/id_rsa):&lt;回车就好&gt; 注意1: 此处的邮箱地址，你可以输入自己的邮箱地址；注意2: 此处的「-C」的是大写的「C」 然后系统会要你输入密码： Enter passphrase (empty for no passphrase):&lt;输入加密串&gt; Enter same passphrase again:&lt;再次输入加密串&gt; 看到这个界面，说明成功生成公私钥对了：（图片来自于 如何搭建一个独立博客——简明Github Pages与Hexo教程） ###上传刚才生成的public key (对于非对称加密技术 以后会单独写一写，毕竟自己是西电毕业的，这学期的安全课上老师课件里竟然有很多西电的引用) 登录github, 右上角头像，然后找到settings，进去之后找到 SSH and GPG keys 然后 点选 New SSH Key Title栏随便写名字， Key栏里输入你刚才生成的.pub 文件里面的内容，也就是很长的一串&rsquo;乱码’ （图片来自于 如何搭建一个独立博客——简明Github Pages与Hexo教程） 好了到这里 你已经向GitHub上传了你的Public key了，理论上这个时候你可以和GitHub通信了，下面测试一下，命令行输入: $ ssh -T git@github.com 第一次连接可能时间比较久 需要等那么一小会，一般不会有什么问题 接着 就要设置一下用户信息：Git会根据用户的名字和邮箱来记录提交。GitHub也是用这些信息来做权限的处理，输入下面的代码进行个人信息的设置，把名称和邮箱替换成你自己的，名字必须是你的真名，而不是GitHub的昵称。 $ git config --global user.name &quot;cnfeat&quot;//用户名 $ git config --global user.email &quot;cnfeat@gmail.com&quot;//填写自己的邮箱 上传/下载代码 终于。。。下面先在GitHub上新建一个repository(存放处、代码仓库) 就以我的博客代码为例 wjxiz.github.io ，新建完了之后 去一个目录下 比如我这里的 ~/github/wjxiz.github.io/public 接着 git init --表明这个文件夹已经被初始化为一个本地仓库了 然后要和github上的那个远端库联系起来： git pull https://github.com/wjxiz/wjxiz.github.io --这个地址就是我刚才新建的库的网页地址，直接复制粘贴就行 好了，现在已经告诉这个文件夹 和远端，这俩库已经建立连接了，pull的意思是 把远端库的东西给下载到本地来，显然 这个时候是空的，没有下什么指示建立了连接而已。 ok，这个时候我就可以上传东西了，你可以试着新建一个文件在这个本地仓库，比如test.txt这种，然后命令行输入 git add .
+  <p>##Git是什么？有什么用？</p>
+
+<p>Git的介绍网上一大堆，我的理解是，可以给一个工程创建多个副本，各副本之间可以独立开发，也可以相互影响。举一个简单地例子：</p>
+
+<blockquote>
+<p>我现在有一个项目，需要两个函数，正好有两个开发人员。两个开发人员可以在各自的电脑上下载这个初始项目，然后写各自的函数。写完之后上传，合并之后，就得到了拥有两个函数的项目。</p>
+</blockquote>
+
+<p>对于我这个把github当成学习记录的人来说，git也没那么大作用了。也就是上传上传代码，督促自己学习。忘了说了Git和Github是两个不同概念，github是根据Git来做的一个大型网络代码托管库，Git是实现代码托管、版本管理的技术核心。</p>
+
   </p>
 
   
