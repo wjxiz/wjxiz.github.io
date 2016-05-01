@@ -6,8 +6,26 @@
     <description>Recent content in Posts on wjxiz&#39;blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>不要在睡前刷Leetcode，容易导致失眠。。。</copyright>
-    <lastBuildDate>Wed, 27 Apr 2016 15:00:39 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 02 May 2016 00:30:41 +0200</lastBuildDate>
     <atom:link href="http://wjxiz.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>形式语言与自动机-lemme d&#39;etoile</title>
+      <link>http://wjxiz.com/post/lemme-etoile/</link>
+      <pubDate>Mon, 02 May 2016 00:30:41 +0200</pubDate>
+      
+      <guid>http://wjxiz.com/post/lemme-etoile/</guid>
+      <description>&lt;p&gt;明天补考 language formel et automate 形式语言与自动机理论。找到一篇非常好的关于泵引理的讲解.pdf 在&lt;a href=&#34;https://github.com/wjxiz/wjxiz.github.io/blob/master/attached/note-ch04.pdf&#34;&gt;这里&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a data-flickr-embed=&#34;true&#34;  href=&#34;https://www.flickr.com/photos/141572190@N07/26759517975/in/dateposted-public/&#34; title=&#34;1&#34;&gt;&lt;img src=&#34;https://farm2.staticflickr.com/1615/26759517975_d8f6160c90_c.jpg&#34; width=&#34;800&#34; height=&#34;649&#34; alt=&#34;1&#34;&gt;&lt;/a&gt;&lt;script async src=&#34;//embedr.flickr.com/assets/client-code.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a data-flickr-embed=&#34;true&#34;  href=&#34;https://www.flickr.com/photos/141572190@N07/26692526301/in/dateposted-public/&#34; title=&#34;2&#34;&gt;&lt;img src=&#34;https://farm2.staticflickr.com/1719/26692526301_e188c4e79b_c.jpg&#34; width=&#34;800&#34; height=&#34;509&#34; alt=&#34;2&#34;&gt;&lt;/a&gt;&lt;script async src=&#34;//embedr.flickr.com/assets/client-code.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a data-flickr-embed=&#34;true&#34;  href=&#34;https://www.flickr.com/photos/141572190@N07/26734180666/in/dateposted-public/&#34; title=&#34;3&#34;&gt;&lt;img src=&#34;https://farm2.staticflickr.com/1720/26734180666_74c08d11a7_c.jpg&#34; width=&#34;800&#34; height=&#34;495&#34; alt=&#34;3&#34;&gt;&lt;/a&gt;&lt;script async src=&#34;//embedr.flickr.com/assets/client-code.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a data-flickr-embed=&#34;true&#34;  href=&#34;https://www.flickr.com/photos/141572190@N07/26155836393/in/dateposted-public/&#34; title=&#34;4&#34;&gt;&lt;img src=&#34;https://farm2.staticflickr.com/1573/26155836393_14fe999054_c.jpg&#34; width=&#34;800&#34; height=&#34;471&#34; alt=&#34;4&#34;&gt;&lt;/a&gt;&lt;script async src=&#34;//embedr.flickr.com/assets/client-code.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Git使用初探</title>
