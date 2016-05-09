@@ -6,8 +6,112 @@
     <description>Recent content on wjxiz&#39;blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>不要在睡前刷Leetcode，容易导致失眠。。。</copyright>
-    <lastBuildDate>Mon, 02 May 2016 00:30:41 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 09 May 2016 11:33:37 +0200</lastBuildDate>
     <atom:link href="http://wjxiz.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Minimiser automate 最小化有限自动机</title>
+      <link>http://wjxiz.com/post/minimiser-automate/</link>
+      <pubDate>Mon, 09 May 2016 11:33:37 +0200</pubDate>
+      
+      <guid>http://wjxiz.com/post/minimiser-automate/</guid>
+      <description>
+
+&lt;p&gt;这篇 记录一下 Moore法 最小化有限自动机的方法。&lt;/p&gt;
+
+&lt;h2 id=&#34;moore:10296f9909abc3162244997f578c95c6&#34;&gt;Moore&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;L&amp;rsquo;algorithme de Moore pour la minimisation d&amp;rsquo;automates est dû à Moore 1956. L&amp;rsquo;algorithme maintient une partition des états, constituée initialement de deux classes, formées des états terminaux et des autres. La partition est ensuite raffinée jusqu&amp;rsquo;à obtenir une partition stable. À chaque étape, on remplace la partition courante par la partition qui est l&amp;rsquo;intersection de la partition courante et des partitions induites par les préimages des classes par les lettres de l&amp;rsquo;alphabet. L&amp;rsquo;algorithme s&amp;rsquo;arrête lorsque ce remplacement ne modifie pas la partition courante. On montre que les classes de la partition finale sont constituées d&amp;rsquo;états inséparables, et forment donc les états de l&amp;rsquo;automate minimal.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;来自维基百科 法语&lt;/p&gt;
+
+&lt;p&gt;我来翻译一下：&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;为了实现最小化自动机的Moore算法，是由Moore在1956年实现的. 这个算法 一开始将所有状态分成两类，一类是“终结类”，另一类是“非终结类”, 在计算过程中不断的进行状态划分直至 不再出现新的状态集。在每一步，我们都将 经过一次状态变化后 进如其他状态集的状态 给单独区分出来，划归到一个新的状态集。我们重复这个步骤 直至所有状态集稳定。我们可以证明，这个最后的划分 无法再被继续分割，并且这个状态集就称为 自动机的最小状态集。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;翻译出来就是这个意思，下面我用符号语言和例子 来解释一下这个算法。&lt;/p&gt;
+
+&lt;h2 id=&#34;规则阐述:10296f9909abc3162244997f578c95c6&#34;&gt;规则阐述&lt;/h2&gt;
+
+&lt;p&gt;最小有限自动机，是指满足下述条件的确定有限自动机:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;没有无用状态(无用状态已删除)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;没有等价状态(等价状态已合并)。&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&#34;第一步-删除无用状态:10296f9909abc3162244997f578c95c6&#34;&gt;第一步：删除无用状态&lt;/h4&gt;
+
+&lt;p&gt;定义：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;无用状态是指自动机从开始态出发，对任何符号串都不能到达的状态。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;判别方法：&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;构造有用状态集 Qus&lt;/li&gt;
+&lt;li&gt;设 q0 为开始态，则 令 q0∈Qus ；&lt;/li&gt;
+&lt;li&gt;若 qi∈Qus 且有 d(qi,a)= qj 则令 qj∈Qus ；&lt;/li&gt;
+&lt;li&gt;重复执行⑵，直到Qus不再增大为止。&lt;/li&gt;
+&lt;li&gt;从状态集Q中，删除不在Qus中的所有状态。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;可能第三步不太好理解，说简单点，就是如果有一个在 有用状态集中的状态Qi 可以经过 a 变换到 qj， 那么qj也是有用状态，qj就是一个可达状态。 可以想象，如果有一个状态qn，经过任何变化都不可以到达，那么显然qn就是一个无用状态，他对状态机 的变换过程不产生任何影响，我们在最小化过程中可以直接删除它。&lt;/p&gt;
+
+&lt;p&gt;####第二步：合并等价状态，划分不等价状态（重点）&lt;/p&gt;
+
+&lt;p&gt;定义： 两个状态i,j等价，当且仅当满足下面两个条件：&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;必须同是结束态，或同不是结束态；&lt;/li&gt;
+&lt;li&gt;对所有字母表上符号，状态i,j必变换到等价状态。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;方法：&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;初始，把状态集Q化分成两个不等价子集:Q1(结束状态集)， Q2(非结束状态集)；&lt;/li&gt;
+&lt;li&gt;对于每一个子集再进行划分，如果同一子集中的 两个状态，经过某个变换后，进入到了不同的子集中，那么这两个状态就需要被 划分开。&lt;/li&gt;
+&lt;li&gt;重复步骤2，直至不能再划分。&lt;/li&gt;
+&lt;li&gt;最终的不同子集就是最终的不同状态集。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;对于2，解释一下： 比如 d(i,a)∈Qm , d(j,a)∈Qn 且 m≠n,那么dj,dj就需要被划分到不同的子集中去。在这个变换过程中需要考虑该状态所有的变换可能。&lt;/p&gt;
+
+&lt;p&gt;###这边举个wikipédia上的例子：&lt;/p&gt;
+
+&lt;p&gt;图一：
+&lt;img src=&#34;https://upload.wikimedia.org/wikipedia/commons/c/cd/DFA_to_be_minimized.jpg&#34; alt=&#34;图一&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;可以看到 状态c d e 是终结的，abf是非终结的，所以一开始划分成两个状态集 ：Q1{a,b,f} 和 Q2{c,d,e}&lt;/p&gt;
+
+&lt;p&gt;然后开始进行划分:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;a b f 经过 0 都指向Q1 ，在这一步 不划分&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;a b 经过 1  都指向 Q2（d 和 c） ，而f 经过1 指向了 Q1（因为f在Q1中，f进过1 指向了自己），所以这个时候把 f 划分出来 得到Q3 {f}&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;c d e 经过 0 都指向 Q2 ，因此不划分 ，经过 1 都指向Q3 ，因此也不划分&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;再看f ，因为f 是单独状态集，所以不存在划分的可能性&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;很关键： 在每次划分完一次之后，需要再进行一次划分，因为原来指向同一个状态集的 状态 在 进行一次划分之后，可能指向了不同的状态集了。那么好 ，再看一下所有的状态，发现没有新变化了。至此 划分完毕。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;得到最终结果如图二：
+&lt;img src=&#34;https://upload.wikimedia.org/wikipedia/commons/6/66/Minimized_DFA.jpg&#34; alt=&#34;图二&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ok.去吃饭了。有空把 C语言的 “注释” 状态集 贴出来，分析一下最小化。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>形式语言与自动机-lemme d&#39;etoile</title>
@@ -265,6 +369,10 @@ git push origin master --ok ，上传！
 &lt;h2 id=&#34;后记:051c24c930b3ac277c3a9f3815ceb6a3&#34;&gt;后记&lt;/h2&gt;
 
 &lt;p&gt;网易的游戏设计部 好像在杭州，并不是第一目标上海。所以这次面试经历还是挺宝贵的，毕竟网易是国内排名前3的游戏公司。&lt;/p&gt;
+
+&lt;h2 id=&#34;结果-5-9日更新:051c24c930b3ac277c3a9f3815ceb6a3&#34;&gt;结果 (5.9日更新)&lt;/h2&gt;
+
+&lt;p&gt;被拒绝了，和预料的一样。&lt;/p&gt;
 </description>
     </item>
     
