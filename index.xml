@@ -6,8 +6,270 @@
     <description>Recent content on wjxiz&#39;blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>不要在睡前刷Leetcode，容易导致失眠。。。</copyright>
-    <lastBuildDate>Mon, 09 May 2016 11:33:37 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 16 May 2016 21:58:25 +0800</lastBuildDate>
     <atom:link href="http://wjxiz.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>宝宝写的~</title>
+      <link>http://wjxiz.com/post/miaomiao/</link>
+      <pubDate>Mon, 16 May 2016 21:58:25 +0800</pubDate>
+      
+      <guid>http://wjxiz.com/post/miaomiao/</guid>
+      <description>&lt;p&gt;徐先生是一个特别特别特别单纯的boy。。单纯到什么程度呢？就是见过他的每一个人都说这孩子挺乖的。。&lt;/p&gt;
+
+&lt;p&gt;认识我的小伙伴都知道徐先生是我买包送的。。其实讲真。。作为一个不喜欢给别人添麻烦的girl。。一开始我是拒绝搭理徐先生的。。总觉得在他那么忙的时候多说一句话都是挺过分的事。。但是这世上毕竟有一种缘分叫做一见钟情。。&lt;/p&gt;
+
+&lt;p&gt;不过我跟徐先生的缘起。。真是可以追溯到很多很多年以前。。2011年的某个夏天。。徐先生在白白手机上第一次看见一个叫贝贝的女生。。当时还很兴奋的调侃了白白几句。。有关于高考的夏天的记忆往往特别深刻。。当他知道我就是那个贝贝的一瞬间。。整个世界都充斥着一种奇妙的感觉。。仿佛我们真的认识了很多很多年。。&lt;/p&gt;
+
+&lt;p&gt;后来就很顺利成章的在一起。。没有任何无谓的忸怩与矜持。。也没有任何不必的矫情与造作。。&lt;/p&gt;
+
+&lt;p&gt;在5月12号之前。。我们真正在一起的时间只有6天。。剩下一百多天的时光里。。我们全靠视频语音度过。。聊天记录已经完全刷不到顶。。对于两个都是刚结束异地恋的人来讲。。再去选择这样子的生活也真是蛮拼的。。我并不完全了解他眼中完美的爱情。。但是却深切的知晓我想要的东西。。陪伴是最长情的告白。。但陪伴并不是他时时刻刻分分秒秒都在我左右。。而是我只要一想起他就满心欢喜。。&lt;/p&gt;
+
+&lt;p&gt;当然。。一段感情里抛却了那些珠光宝气的爱。。剩下的就是悄无声息的生活。。异地恋并没有我曾经以为的那样能接受。。而时光却比我想象的快得多。。我们都有了彼此的生活已经需要努力去完成的东西。。我们也都拥有着完全不同的朋友与生活方式。。我醒着的时候他在午睡。。我正要去睡他却恰好醒了。。我们在不停的错过与追逐。。又在不停的重逢与相遇。。我们明明离得那么远。。却有着那么多重合的轨迹。。&lt;/p&gt;
+
+&lt;p&gt;作为一个单纯且耿直的boy。。早期的徐先生是真的完全是一种女生的心思我不猜的态度。。每次不开心。。我就会说我要去睡了。。徐先生淡定的回了一个哦。。哦！哦！！！听完这句话的我当时就傻了。。当然如果你觉得他会以为我不开心然后来哄我那就真是太太太天真了。。已经不记得有多少次。。我半夜两三点起来。。打开视频。。严肃的徐先生讲。。我们谈谈。。也是不知他有没有被一脸严肃的我吓懵过。。&lt;/p&gt;
+
+&lt;p&gt;然而当我们都很懂得相互珍惜的原理。。所有的问题也就都不再是问题。。不会主动哄女孩子的徐先生也会开始想想看我会喜欢什么。。也会开始陪我挑口红的颜色香水的味道。。乘两个小时的小火车去帮我买包再乘两个小时的小火车回来。。而我也会逐渐收敛起自己太过外露的锋芒。。逐渐放弃自己那么矫情的脾气。。爱一个人无非就是为他做更好的自己。。&lt;/p&gt;
+
+&lt;p&gt;人生就是一场奇妙的旅行。。永远不知下一个转角会遇上什么样的人。。年纪大了的我却更加喜欢做一些矫情的事情。。嗯。。希望以后你们遇见的人都是自己爱的人。。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>MYO智能腕带开发简介</title>
+      <link>http://wjxiz.com/post/intro-myo/</link>
+      <pubDate>Mon, 16 May 2016 18:08:29 +0800</pubDate>
+      
+      <guid>http://wjxiz.com/post/intro-myo/</guid>
+      <description>
+
+&lt;h3 id=&#34;myo-armband-是个啥:a311633808d1485dd5525bf89472a696&#34;&gt;MYO armband 是个啥？&lt;/h3&gt;
+
+&lt;p&gt;一个由加拿大的一个实验室开发的智能硬件，将其戴在手肘处，就可以通过它进行一些操作控制。具体可以点这里看一看&lt;a href=&#34;www.myo.com&#34;&gt;官方网站和演示&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;开发者视角:a311633808d1485dd5525bf89472a696&#34;&gt;开发者视角&lt;/h3&gt;
+
+&lt;p&gt;MYO实际上可以提供两种类型的数据 &lt;code&gt;空间数据spatial data&lt;/code&gt;和&lt;code&gt;手势数据gestural data&lt;/code&gt;。&lt;/p&gt;
+
+&lt;p&gt;空间数据不用多说，可以告诉应用程序 使用者手臂的指向和位移。SDK 对于spatial data 又有两种类型：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;一个代表着使用者手臂所指方向的 指向数据，这个指向数据是由一个4元组构成，这个4元组可以变转化成其他表示，比如旋转矩阵，比如欧拉角。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;加速向量。代表着这个armband在任何时刻的一个加速度朝向。这是一个三维向量（这很容易理解）&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;对于手势数据，它可以告诉应用程序 这个armband被戴在哪一只手上，以及它的朝向。这些判断是在带上之后，做一个 同步手势 的时候判定的。 这个腕表还会给予反馈，这个反馈就是 震动 和声音。每次你做什么手势，都会有一定的反馈。&lt;/p&gt;
+
+&lt;h3 id=&#34;hello-myo-cpp:a311633808d1485dd5525bf89472a696&#34;&gt;hello-myo.cpp&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;
+// Copyright (C) 2013-2014 Thalmic Labs Inc.
+// Distributed under the Myo SDK license agreement. See LICENSE.txt for details.
+#define _USE_MATH_DEFINES
+#include &amp;lt;cmath&amp;gt;
+#include &amp;lt;iostream&amp;gt;
+#include &amp;lt;iomanip&amp;gt;
+#include &amp;lt;stdexcept&amp;gt;
+#include &amp;lt;string&amp;gt;
+#include &amp;lt;algorithm&amp;gt;
+
+// The only file that needs to be included to use the Myo C++ SDK is myo.hpp.
+#include &amp;lt;myo/myo.hpp&amp;gt;
+
+// Classes that inherit from myo::DeviceListener can be used to receive events from Myo devices. DeviceListener
+// provides several virtual functions for handling different kinds of events. If you do not override an event, the
+// default behavior is to do nothing.
+class DataCollector : public myo::DeviceListener {
+public:
+    DataCollector()
+    : onArm(false), isUnlocked(false), roll_w(0), pitch_w(0), yaw_w(0), currentPose()
+    {
+    }
+
+    // onUnpair() is called whenever the Myo is disconnected from Myo Connect by the user.
+    void onUnpair(myo::Myo* myo, uint64_t timestamp)
+    {
+        // We&#39;ve lost a Myo.
+        // Let&#39;s clean up some leftover state.
+        roll_w = 0;
+        pitch_w = 0;
+        yaw_w = 0;
+        onArm = false;
+        isUnlocked = false;
+    }
+
+    // onOrientationData() is called whenever the Myo device provides its current orientation, which is represented
+    // as a unit quaternion.
+    void onOrientationData(myo::Myo* myo, uint64_t timestamp, const myo::Quaternion&amp;lt;float&amp;gt;&amp;amp; quat)
+    {
+        using std::atan2;
+        using std::asin;
+        using std::sqrt;
+        using std::max;
+        using std::min;
+
+        // Calculate Euler angles (roll, pitch, and yaw) from the unit quaternion.
+        float roll = atan2(2.0f * (quat.w() * quat.x() + quat.y() * quat.z()),
+                           1.0f - 2.0f * (quat.x() * quat.x() + quat.y() * quat.y()));
+        float pitch = asin(max(-1.0f, min(1.0f, 2.0f * (quat.w() * quat.y() - quat.z() * quat.x()))));
+        float yaw = atan2(2.0f * (quat.w() * quat.z() + quat.x() * quat.y()),
+                        1.0f - 2.0f * (quat.y() * quat.y() + quat.z() * quat.z()));
+
+        // Convert the floating point angles in radians to a scale from 0 to 18.
+        roll_w = static_cast&amp;lt;int&amp;gt;((roll + (float)M_PI)/(M_PI * 2.0f) * 18);
+        pitch_w = static_cast&amp;lt;int&amp;gt;((pitch + (float)M_PI/2.0f)/M_PI * 18);
+        yaw_w = static_cast&amp;lt;int&amp;gt;((yaw + (float)M_PI)/(M_PI * 2.0f) * 18);
+    }
+
+    // onPose() is called whenever the Myo detects that the person wearing it has changed their pose, for example,
+    // making a fist, or not making a fist anymore.
+    void onPose(myo::Myo* myo, uint64_t timestamp, myo::Pose pose)
+    {
+        currentPose = pose;
+
+        if (pose != myo::Pose::unknown &amp;amp;&amp;amp; pose != myo::Pose::rest) {
+            // Tell the Myo to stay unlocked until told otherwise. We do that here so you can hold the poses without the
+            // Myo becoming locked.
+            myo-&amp;gt;unlock(myo::Myo::unlockHold);
+
+            // Notify the Myo that the pose has resulted in an action, in this case changing
+            // the text on the screen. The Myo will vibrate.
+            myo-&amp;gt;notifyUserAction();
+        } else {
+            // Tell the Myo to stay unlocked only for a short period. This allows the Myo to stay unlocked while poses
+            // are being performed, but lock after inactivity.
+            myo-&amp;gt;unlock(myo::Myo::unlockTimed);
+        }
+    }
+
+    // onArmSync() is called whenever Myo has recognized a Sync Gesture after someone has put it on their
+    // arm. This lets Myo know which arm it&#39;s on and which way it&#39;s facing.
+    void onArmSync(myo::Myo* myo, uint64_t timestamp, myo::Arm arm, myo::XDirection xDirection, float rotation,
+                   myo::WarmupState warmupState)
+    {
+        onArm = true;
+        whichArm = arm;
+    }
+
+    // onArmUnsync() is called whenever Myo has detected that it was moved from a stable position on a person&#39;s arm after
+    // it recognized the arm. Typically this happens when someone takes Myo off of their arm, but it can also happen
+    // when Myo is moved around on the arm.·
+    void onArmUnsync(myo::Myo* myo, uint64_t timestamp)
+    {
+        onArm = false;
+    }
+
+    // onUnlock() is called whenever Myo has become unlocked, and will start delivering pose events.
+    void onUnlock(myo::Myo* myo, uint64_t timestamp)
+    {
+        isUnlocked = true;
+    }
+
+    // onLock() is called whenever Myo has become locked. No pose events will be sent until the Myo is unlocked again.
+    void onLock(myo::Myo* myo, uint64_t timestamp)
+    {
+        isUnlocked = false;
+    }
+
+    // There are other virtual functions in DeviceListener that we could override here, like onAccelerometerData().
+    // For this example, the functions overridden above are sufficient.
+
+    // We define this function to print the current values that were updated by the on...() functions above.
+    void print()
+    {
+        // Clear the current line
+        std::cout &amp;lt;&amp;lt; &#39;\r&#39;;
+
+        // Print out the orientation. Orientation data is always available, even if no arm is currently recognized.
+        std::cout &amp;lt;&amp;lt; &#39;[&#39; &amp;lt;&amp;lt; std::string(roll_w, &#39;*&#39;) &amp;lt;&amp;lt; std::string(18 - roll_w, &#39; &#39;) &amp;lt;&amp;lt; &#39;]&#39;
+                  &amp;lt;&amp;lt; &#39;[&#39; &amp;lt;&amp;lt; std::string(pitch_w, &#39;*&#39;) &amp;lt;&amp;lt; std::string(18 - pitch_w, &#39; &#39;) &amp;lt;&amp;lt; &#39;]&#39;
+                  &amp;lt;&amp;lt; &#39;[&#39; &amp;lt;&amp;lt; std::string(yaw_w, &#39;*&#39;) &amp;lt;&amp;lt; std::string(18 - yaw_w, &#39; &#39;) &amp;lt;&amp;lt; &#39;]&#39;;
+
+        if (onArm) {
+            // Print out the lock state, the currently recognized pose, and which arm Myo is being worn on.
+
+            // Pose::toString() provides the human-readable name of a pose. We can also output a Pose directly to an
+            // output stream (e.g. std::cout &amp;lt;&amp;lt; currentPose;). In this case we want to get the pose name&#39;s length so
+            // that we can fill the rest of the field with spaces below, so we obtain it as a string using toString().
+            std::string poseString = currentPose.toString();
+
+            std::cout &amp;lt;&amp;lt; &#39;[&#39; &amp;lt;&amp;lt; (isUnlocked ? &amp;quot;unlocked&amp;quot; : &amp;quot;locked  &amp;quot;) &amp;lt;&amp;lt; &#39;]&#39;
+                      &amp;lt;&amp;lt; &#39;[&#39; &amp;lt;&amp;lt; (whichArm == myo::armLeft ? &amp;quot;L&amp;quot; : &amp;quot;R&amp;quot;) &amp;lt;&amp;lt; &#39;]&#39;
+                      &amp;lt;&amp;lt; &#39;[&#39; &amp;lt;&amp;lt; poseString &amp;lt;&amp;lt; std::string(14 - poseString.size(), &#39; &#39;) &amp;lt;&amp;lt; &#39;]&#39;;
+        } else {
+            // Print out a placeholder for the arm and pose when Myo doesn&#39;t currently know which arm it&#39;s on.
+            std::cout &amp;lt;&amp;lt; &#39;[&#39; &amp;lt;&amp;lt; std::string(8, &#39; &#39;) &amp;lt;&amp;lt; &#39;]&#39; &amp;lt;&amp;lt; &amp;quot;[?]&amp;quot; &amp;lt;&amp;lt; &#39;[&#39; &amp;lt;&amp;lt; std::string(14, &#39; &#39;) &amp;lt;&amp;lt; &#39;]&#39;;
+        }
+
+        std::cout &amp;lt;&amp;lt; std::flush;
+    }
+
+    // These values are set by onArmSync() and onArmUnsync() above.
+    bool onArm;
+    myo::Arm whichArm;
+
+    // This is set by onUnlocked() and onLocked() above.
+    bool isUnlocked;
+
+    // These values are set by onOrientationData() and onPose() above.
+    int roll_w, pitch_w, yaw_w;
+    myo::Pose currentPose;
+};
+
+int main(int argc, char** argv)
+{
+    // We catch any exceptions that might occur below -- see the catch statement for more details.
+    try {
+
+    // First, we create a Hub with our application identifier. Be sure not to use the com.example namespace when
+    // publishing your application. The Hub provides access to one or more Myos.
+    myo::Hub hub(&amp;quot;com.example.hello-myo&amp;quot;);
+
+    std::cout &amp;lt;&amp;lt; &amp;quot;Attempting to find a Myo...&amp;quot; &amp;lt;&amp;lt; std::endl;
+
+    // Next, we attempt to find a Myo to use. If a Myo is already paired in Myo Connect, this will return that Myo
+    // immediately.
+    // waitForMyo() takes a timeout value in milliseconds. In this case we will try to find a Myo for 10 seconds, and
+    // if that fails, the function will return a null pointer.
+    myo::Myo* myo = hub.waitForMyo(10000);
+
+    // If waitForMyo() returned a null pointer, we failed to find a Myo, so exit with an error message.
+    if (!myo) {
+        throw std::runtime_error(&amp;quot;Unable to find a Myo!&amp;quot;);
+    }
+
+    // We&#39;ve found a Myo.
+    std::cout &amp;lt;&amp;lt; &amp;quot;Connected to a Myo armband!&amp;quot; &amp;lt;&amp;lt; std::endl &amp;lt;&amp;lt; std::endl;
+
+    // Next we construct an instance of our DeviceListener, so that we can register it with the Hub.
+    DataCollector collector;
+
+    // Hub::addListener() takes the address of any object whose class inherits from DeviceListener, and will cause
+    // Hub::run() to send events to all registered device listeners.
+    hub.addListener(&amp;amp;collector);
+
+    // Finally we enter our main loop.
+    while (1) {
+        // In each iteration of our main loop, we run the Myo event loop for a set number of milliseconds.
+        // In this case, we wish to update our display 20 times a second, so we run for 1000/20 milliseconds.
+        hub.run(1000/20);
+        // After processing events, we call the print() member function we defined above to print out the values we&#39;ve
+        // obtained from any events that have occurred.
+        collector.print();
+    }
+
+    // If a standard exception occurred, we print out its message and exit.
+    } catch (const std::exception&amp;amp; e) {
+        std::cerr &amp;lt;&amp;lt; &amp;quot;Error: &amp;quot; &amp;lt;&amp;lt; e.what() &amp;lt;&amp;lt; std::endl;
+        std::cerr &amp;lt;&amp;lt; &amp;quot;Press enter to continue.&amp;quot;;
+        std::cin.ignore();
+        return 1;
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
     
     <item>
       <title>Minimiser automate 最小化有限自动机</title>
@@ -462,6 +724,36 @@ git push origin master --ok ，上传！
 &lt;h3 id=&#34;睡觉去:e8fb9c67eba912c72729806db31eaa1b&#34;&gt;睡觉去&lt;/h3&gt;
 
 &lt;p&gt;悄悄告诉你，我高考语文不及格。嘘！&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://wjxiz.com/post/%E9%A5%AD%E5%BA%97%E5%90%83%E9%A5%AD/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://wjxiz.com/post/%E9%A5%AD%E5%BA%97%E5%90%83%E9%A5%AD/</guid>
+      <description>
+
+&lt;h3 id=&#34;饭店吃饭:dcb7b3f5d033a1bf384f4340c01e20e1&#34;&gt;饭店吃饭&lt;/h3&gt;
+
+&lt;p&gt;徐先生是一个特别特别特别单纯的boy。。单纯到什么程度呢？就是见过他的每一个人都说这孩子挺乖的。。&lt;/p&gt;
+
+&lt;p&gt;认识我的小伙伴都知道徐先生是我买包送的。。其实讲真。。作为一个不喜欢给别人添麻烦的girl。。一开始我是拒绝搭理徐先生的。。总觉得在他那么忙的时候多说一句话都是挺过分的事。。但是这世上毕竟有一种缘分叫做一见钟情。。&lt;/p&gt;
+
+&lt;p&gt;不过我跟徐先生的缘起。。真是可以追溯到很多很多年以前。。2011年的某个夏天。。徐先生在白白手机上第一次看见一个叫贝贝的女生。。当时还很兴奋的调侃了白白几句。。有关于高考的夏天的记忆往往特别深刻。。当他知道我就是那个贝贝的一瞬间。。整个世界都充斥着一种奇妙的感觉。。仿佛我们真的认识了很多很多年。。&lt;/p&gt;
+
+&lt;p&gt;后来就很顺利成章的在一起。。没有任何无谓的忸怩与矜持。。也没有任何不必的矫情与造作。。&lt;/p&gt;
+
+&lt;p&gt;在5月12号之前。。我们真正在一起的时间只有6天。。剩下一百多天的时光里。。我们全靠视频语音度过。。聊天记录已经完全刷不到顶。。对于两个都是刚结束异地恋的人来讲。。再去选择这样子的生活也真是蛮拼的。。我并不完全了解他眼中完美的爱情。。但是却深切的知晓我想要的东西。。陪伴是最长情的告白。。但陪伴并不是他时时刻刻分分秒秒都在我左右。。而是我只要一想起他就满心欢喜。。&lt;/p&gt;
+
+&lt;p&gt;当然。。一段感情里抛却了那些珠光宝气的爱。。剩下的就是悄无声息的生活。。异地恋并没有我曾经以为的那样能接受。。而时光却比我想象的快得多。。我们都有了彼此的生活已经需要努力去完成的东西。。我们也都拥有着完全不同的朋友与生活方式。。我醒着的时候他在午睡。。我正要去睡他却恰好醒了。。我们在不停的错过与追逐。。又在不停的重逢与相遇。。我们明明离得那么远。。却有着那么多重合的轨迹。。&lt;/p&gt;
+
+&lt;p&gt;作为一个单纯且耿直的boy。。早期的徐先生是真的完全是一种女生的心思我不猜的态度。。每次不开心。。我就会说我要去睡了。。徐先生淡定的回了一个哦。。哦！哦！！！听完这句话的我当时就傻了。。当然如果你觉得他会以为我不开心然后来哄我那就真是太太太天真了。。已经不记得有多少次。。我半夜两三点起来。。打开视频。。严肃的徐先生讲。。我们谈谈。。也是不知他有没有被一脸严肃的我吓懵过。。&lt;/p&gt;
+
+&lt;p&gt;然而当我们都很懂得相互珍惜的原理。。所有的问题也就都不再是问题。。不会主动哄女孩子的徐先生也会开始想想看我会喜欢什么。。也会开始陪我挑口红的颜色香水的味道。。乘两个小时的小火车去帮我买包再乘两个小时的小火车回来。。而我也会逐渐收敛起自己太过外露的锋芒。。逐渐放弃自己那么矫情的脾气。。爱一个人无非就是为他做更好的自己。。&lt;/p&gt;
+
+&lt;p&gt;人生就是一场奇妙的旅行。。永远不知下一个转角会遇上什么样的人。。年纪大了的我却更加喜欢做一些矫情的事情。。嗯。。希望以后你们遇见的人都是自己爱的人。。&lt;/p&gt;
 </description>
     </item>
     
